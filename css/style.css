@@ -347,6 +347,7 @@
     color: #FFFFFF !important;
 }
 
+
 .testimonial-carousel .owl-dots {
     margin-top: 24px;
     display: flex;
@@ -434,4 +435,21 @@
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+.read {
+    max-width: 1200px;
+}
+
+.program-fee-table {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.program-fee-table thead {
+    background-color: #181d38;
+    color: #F0FBFC;
+}
+
+.program-fee-table table {
+    border-radius: 5px;
 }
