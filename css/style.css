@@ -453,3 +453,29 @@
 .program-fee-table table {
     border-radius: 5px;
 }
+
+.landing {
+    background-size: cover;
+    height: calc(100svh - 4.5rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10vw !important;
+    padding-right: 10vw !important;
+    background-image: linear-gradient(to bottom,
+            rgba(3, 1, 41, 0.1),
+            rgba(3, 1, 41, 0.1)),
+        url('../img/clg.jpeg') !important;
+}
+
+.hero-heading {
+    padding: 10px 30px;
+}
+
+
+.content {
+    font-family: 'Sora', sans-serif;
+    text-align: justify;
+
+}
